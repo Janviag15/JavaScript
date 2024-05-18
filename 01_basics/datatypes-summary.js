@@ -33,6 +33,28 @@ const myFunction = function(){
 
 console.log(typeof myFunction);
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack Memory(Primitive)(Variable copy) ,Heap Memory(Non Primitive)(Original value change)
+
+let myName = "Janvi"
+
+let anotherName = myName
+anotherName = "Mansi"
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@gmail.com"
+
+}
+
+let userTwo = userOne
+userTwo.email = "janvi@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
 
 
 
