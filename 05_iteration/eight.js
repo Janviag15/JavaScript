@@ -4,6 +4,8 @@ const myTotal = myNums.reduce(function (acc, currval) {
     console.log(`acc: ${acc} and currval: ${currval}`);
     return acc + currval
 }, 0)
+console.log(myTotal);
+
 
 const myTotal1 = myNums.reduce( (acc, curr) => acc+curr, 0)
 
