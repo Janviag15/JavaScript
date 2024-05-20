@@ -46,7 +46,7 @@ console.log(add2(3,4));
 const add = (num1, num2) => ( num1 + num2 )
 console.log(add(3,4));
 
-const add4 = (num1, num2) => ({username: "hitesh"})
+const add4 = (num1, num2) => ({username: "Janvi"})
 
 //const myArr = [2,5,3,7,9]
 //myArr.forEach(() => ())
